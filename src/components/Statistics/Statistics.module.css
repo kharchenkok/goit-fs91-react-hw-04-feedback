@@ -1,0 +1,35 @@
+.statistics__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  color: #0d3967;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.statistics__list li {
+  padding: 20px;
+}
+
+.statistics__list li:nth-child(-n + 3) {
+  text-align: center;
+  border-bottom: 2px solid #0d3967;
+}
+.statistics__list li:nth-child(5) {
+  grid-area: 3/1;
+}
+
+.statistics__list span {
+  font-size: 24px;
+  color: #3d85c6;
+}
+
+.statistics__list .good {
+  color: green;
+}
+.statistics__list .bad {
+  color: #b70000;
+}
+.statistics__list .neutral {
+  color: goldenrod;
+}

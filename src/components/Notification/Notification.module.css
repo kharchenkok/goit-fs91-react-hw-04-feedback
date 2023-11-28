@@ -1,0 +1,20 @@
+.notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 300px;
+}
+
+.notification__message {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  color: #e45066;
+  text-shadow:
+    #cad5e2 1px 1px 0,
+    #cad5e2 2px 2px 0,
+    #cad5e2 3px 3px 0,
+    #cad5e2 4px 4px 0,
+    #cad5e2 5px 5px 0;
+}
